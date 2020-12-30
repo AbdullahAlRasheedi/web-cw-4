@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>بطاقتي التعريفية</title>
+    <link rel="stylesheet" href="./styles.css">
     <!--  قم بربط هذه الصفحة  مع css -->
     <!--  ربط google fonts -->
   </head>
@@ -11,8 +12,8 @@
   <body>
     <nav>
       <div class="nav-elements">
-        <a href="#">هويّتي</a>
-        <a href="#">هواياتي</a>
+        <a href="#goImg">هويّتي</a>
+        <a href="#hobbies">هواياتي</a>
       </div>
     </nav>
     <h1>مرحباً، أنا طالب في مسار الويب</h1>
@@ -25,13 +26,13 @@
       <img src="./img/kid.png" alt="person" />
 
       <!-------------------(البيانات)------------------>
-      <h1>اسمك</h1>
+      <h1>عبدالله الرشيدي</h1>
       <h4>هواياتي المفضلة</h4>
 
-      <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
+      <ul id="hobbies">
+        <li>السباحة</li>
+        <li>ركوب الخيل</li>
+        <li>البرمجة</li>
       </ul>
 
       <a href="https://code.kw/">
@@ -40,6 +41,10 @@
     </div>
     <!-------------------(الهوايات)------------------>
     <!-- قم بإضافة صور هواياتك هنا -->
-    <div class="hobbies"></div>
+    <div class="hobbies">
+      <img id="goImg" class= "image" src="./img/برمجة.jpg" alt="">
+      <img id="goImg" class= "image" src="./img/السباحة.jpg" alt="">
+      <img id="goImg" class= "image" src="./img/خيل.jpg" alt="">
+    </div>
   </body>
 </html>
